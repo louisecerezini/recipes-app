@@ -1,0 +1,22 @@
+ .header_background {
+    background-color: #b11b34;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .empty-placeholder {
+    flex: 1;
+  }
+
+  .search-btn {
+    background-color: #b11b34;
+    border: none;
+  }
+
+  .icons_container {
+    display: flex;
+    justify-content: space-between; 
+  }

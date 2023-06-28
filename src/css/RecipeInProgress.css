@@ -1,0 +1,17 @@
+.ingredients_checkbox_container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.label {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+}
+
+.input {
+  margin-left: 50px;
+  width: auto;
+}

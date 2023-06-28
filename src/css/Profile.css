@@ -1,0 +1,103 @@
+.profile_btn {
+        background-color: #b11b34;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-family: Titillium Web , sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        height: 40px;
+        margin-top: 20px;
+        opacity: 0.5;
+        text-transform: uppercase;
+        width: 150px; 
+}
+
+.profile_btn:hover { 
+        background-color: #b11b34;
+        cursor: pointer;
+        opacity: 1;
+        transform: scale(1.1);
+        transition: 0.5s;
+}
+
+.btn_container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 10px;
+    width: 100%;
+}
+
+.email_profile {
+    font-family: monospace;
+    font-weight: 700;
+}
+
+.height_profile {
+  align-items: center;
+  flex-direction: column;
+  background-color: #e6e1e2;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.perfilimg_container {
+    width: 200px;
+}
+
+@media (min-width: 390px) and (max-width: 900px) {
+    .profile_btn {
+        background-color: #b11b34;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-family: Titillium Web , sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        height: 40px;
+        margin-top: 20px;
+        opacity: 1;
+        text-transform: uppercase;
+        width: 110px; 
+}
+
+    .btn_container {
+        display: flex;
+        gap: 1px;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        padding: 10px;
+        width: 300px;
+    }
+
+    .email_profile {
+        font-family: monospace;
+        font-weight: 700;
+    }
+    
+    .height_profile {
+      align-items: center;
+      flex-direction: column;
+      background-color: #e6e1e2;
+      display: flex;
+      height: 80vh;
+      justify-content: center;
+    }
+    
+    .perfilimg_container {
+        width: 130px;
+    }
+}

@@ -1,0 +1,31 @@
+/* .btnStartRecipe {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+} */
+
+.btnStartRecipe {
+  background-color: #b11b34;
+  border: none;
+  border-radius: 5px;
+  bottom: 0;
+  color: white;
+  font-family: Titillium Web , sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  height: 40px;
+  margin-top: 20px;
+  opacity: 0.5;
+  position: fixed;
+  text-transform: uppercase;
+  width: 60%;
+}
+
+.btnStartRecipe:hover {
+  background-color: #b11b34;
+  cursor: pointer;
+  opacity: 1;
+  transform: scale(1.1);
+  transition: 0.5s;
+}

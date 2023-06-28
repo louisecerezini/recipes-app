@@ -1,0 +1,24 @@
+.footer_container {
+  background-color: #b11b34;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.drink {
+  background-color: #b11b34;
+  border: 3px solid;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.meal {
+  background-color: #b11b34;
+  border: 3px solid;
+  border-radius: 50%;
+  padding: 5px;
+}
